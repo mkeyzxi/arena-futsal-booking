@@ -1,0 +1,29 @@
+name: futsal_booking_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0' # Pastikan versi SDK Anda kompatibel
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  provider: ^6.0.5 # Untuk state management
+  intl: ^0.19.0 # Untuk format tanggal dan waktu
+  uuid: ^4.2.0 # Untuk menghasilkan ID unik
+  http: ^1.2.1 # Untuk HTTP requests ke backend Anda
+  url_launcher: ^6.2.6 # Untuk membuka URL Midtrans Snap (jika menggunakan WebView atau Custom Tab, opsi lain adalah in_app_webview)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Untuk aset gambar yang akan kita gunakan
+  assets:
+    - assets/images/
